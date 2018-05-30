@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Intern</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+    #bs-example-navbar-collapse-1{
+      width:100%;
+    }
+    img {
+        border-radius: 50%;
+    }
+.column {
+      float: right;
+      padding: 30px;
+      color:white;
+    /* Should be removed. Only for demonstration */
+  }
+.left, .right {
+    width: 50%;
+  }
+.middle {
+    width: 10%;
+  }
+
+  #p{
+    padding-top:2%;
+    font-family: 'Lato', sans-serif;
+    background:url(https://images.unsplash.com/photo-1485766684390-75d98a5777bd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=32ab21c66cc23b8f775100d5b72c0010&auto=format&fit=crop&w=500&q=60);
+    background-size:cover;
+    background-position:center;
+    color: white;
+  }
+  .contact{
+    width:100%;
+    font-family: 'Lato', sans-serif;
+    background:url(https://images.unsplash.com/photo-1485058276291-bfd1a486547f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f79f39fda731ada7e6059c5e227b3e71&auto=format&fit=crop&w=500&q=60);
+    background-size:cover;
+    background-position:center;
+  }
+  #content{
+    text-align: center;
+  }
+
+  #z{
+    text-align:center;
+  }
+
+  hr{
+    width:300px;
+    border-style:solid;
+    border-color: lightblue;
+  }
+  #y{
+    width:100%;
+    font-family: 'Lato', sans-serif;
+    padding-top:2%;
+    text-align:center;
+    color:red;
+  }
+  #x{
+    width:100%;
+    font-family: 'Lato', sans-serif;
+    text-align:center;
+    color:black;
+  }
+  #l{
+    padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    text-align:center;
+    color:red;
+  }
+  input{
+    width:100%;
+  }
+  textarea{
+   width:100%;
+    height:100px;
+  }
+  </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/" style="color:#FF6347">The <strong>Success</strong> Today</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/"><i class="fa fa-home"></i> Home<span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="/about">About Us</a></li>
+            <li class="active"><a href="/contact">Contact Us</a></li>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/medibouts" style="color:#FF6347"> Medibout</a></li>
+              <li><a href="/dzees" style="color:#FF6347"> Dzee</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+          </nav>
+    <div class="container">
+      <div class="row">
+        <div class="text-center">
+        <img style=width:40% src="http://i66.tinypic.com/23rvfhy.jpg">
+      </div>
+    </div>
+  </div>
+
+<div id="y">
+      <h2 style="color:#FF6347"><strong>The Success Today</strong></h2>
+</div>
+<div id="x">
+    <ul><h4>We believe in cheering the path of struggle to the success of a common man.</h4></ul><ul><h4>We tell
+    stories that inspire millions of commoners like you and me.</h4></ul>
+    <ul><h4>We embrace the blood and sweat put in by successful people.</h4></ul>
+</div>
+
+
+  <div class="contact">
+                <div id="z">  <h2><strong>Contact Us</strong></h2>
+                  <h5>Have a question ?</h5>
+                </div>
+
+
+                <div id="content">
+        <form method="POST" action="send">
+          <p>
+
+            <input type="text" placeholder="Name" name="name">
+          </p>
+
+          <p>
+
+            <input type="email" placeholder="Email" name="email">
+          </p>
+
+          <p class="full">
+
+            <textarea name="message" placeholder="Message" rows="5"></textarea>
+          </p>
+          <p class="full">
+            <button type="submit" class="btn btn-info">Submit</button>
+
+        </p>
+        </form>
+        </div>
+        <div id="p">
+          <div class="row">
+            <div class="column left">
+              <h2 style="color:#FF6347">The <strong>Success</strong> Today</h2>
+              <ul>TST is an inspiration for better tomorrow.</ul>
+              <ul>We appreciate leaders who believe that they</ul>
+              <ul>could change the world and who, despite nearly</ul>
+              <ul>impossible odds and tremendous opposition,</ul>
+              <ul>weren’t afraid to try.</ul>
+            </div>
+            <div class="column middle">
+              <li><a href="/"><strong>Home</strong></a></li>
+              <li><a href="/about"><strong>About Us</a></strong></li>
+              <li><a href="/contact"><strong>Contact Us</a></strong></li>
+            </div>
+            <div class="column right">
+              <h2 style="color:#FF6347">Stay Connected</h2>
+              <p><i class="fa fa-envelope" aria-hidden="true"></i>
+info@thesuccesstoday.com</p>
+            </div>
+          </div>
+</div>
+        <footer class="container" style="text-align:center">
+          <p><strong>&copy;2018 The Success Today<strong></p>
+        </footer>
+  </body>
+</html>
